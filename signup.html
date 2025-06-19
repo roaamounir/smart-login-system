@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta settings for character encoding and responsive layout -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Bootstrap and custom styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+    <!-- Main container for the Sign Up form -->
+    <div class="container my-5 text-center">
+        <div class="group m-auto w-75 p-5">
+
+            <!-- Page heading -->
+            <h1>Sign Up</h1>
+
+            <!-- Name input field -->
+            <input id="signupName" class="form-control my-3" type="text" placeholder="Enter your name">
+
+            <!-- Email input field -->
+            <input id="signupEmail" class="form-control my-3" type="email" placeholder="Enter your email">
+
+            <!-- Password input field -->
+            <input id="signupPassword" class="form-control my-3" type="password" placeholder="Enter your password">
+
+            <!-- Message area for errors or success -->
+            <p id="signupMessage" class="text-danger"></p>
+
+            <!-- Sign Up button -->
+            <button id="signupBtn" class="btn btn-outline-info w-100 my-3">
+                Sign Up
+            </button>
+
+            <p class="text-white">
+                You have an account?
+                <a class="text-white" href="index.html"> Signin</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and main JavaScript logic -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

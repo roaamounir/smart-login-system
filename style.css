@@ -1,0 +1,92 @@
+/* General page style */
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* container styling */
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+/* Headings styling */
+h1 {
+    color: #17a2b8;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* Input and textarea background and text color */
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+/* Placeholder color */
+::placeholder {
+    color: #ffffffb4 !important;
+    opacity: 1;
+}
+
+/* Focus effect for inputs */
+.from-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+}
+
+/* Disable shadow on focus */
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+/* Button hover effect */
+.btn:hover {
+    color: #fff !important;
+}
+
+/* White text */
+.text-white {
+    color: #fff !important;
+}
+
+/* Links styling */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Home section height */
+#home {
+    height: 75vh;
+}
+
+
+
+/* Navbar brand styling */
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+/* Disable underline for all links */
+a {
+    text-decoration: none !important;
+}
+
+/* Custom style for logout button */
+.btn-outline-warning {
+    color: rgba(255,255,255,.5);
+    border-color: #ffc107 !important;
+}
